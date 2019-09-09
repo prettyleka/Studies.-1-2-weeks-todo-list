@@ -1,0 +1,162 @@
+
+#bg{
+ width: 1500px;
+ height: 800px;
+ background-repeat: no-repeat;
+ background-image: url(animal-raccoon-wash-laundry-water-minimalism-free-stock-photos-images-hd-wallpaper.jpg);
+ background-position: center;
+}
+
+body{
+    text-align: center;
+    margin: 10;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+    text-decoration-color: cadetblue;
+  }
+  /* Настраиваем внешний вид поля ввода*/
+  header{
+    width: 50%;
+    height: 50px;
+    position: center fixed;
+    top: 10px;
+    left: 50px;
+    z-index: 5;
+    background:rgba(133, 209, 152, 0.3); /*сделать прозрачным*/
+    display: inline-block;
+    border: 5px solid #279655;
+    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 45px;
+    border-top-left-radius: 10px;
+  }
+
+    header input{
+        position: center fixed;
+        width: 90%;
+        height: 20px;
+        left: 0;
+        background:rgba(205, 214, 219, 0.3); /*сделать прозрачным*/
+        border-radius: 5 px;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        border: 0;
+        padding: 10px 10px;
+        font-family: Verdana, Arial, sans-serif;
+        font-size: 16px;
+        margin: 5px;
+        outline: 0ch;
+        float: left;
+        text-indent: 20px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -o-appearance: none;
+        appearance: none;
+    }
+
+        
+    header button {
+        background-image: url(racoon.jpg);  
+        background-size:  contain;
+        background-repeat: round;
+        width: 50px;
+        height: 50px;
+        z-index: 2;
+        position: absolute;
+        right:385px;
+        top: 87px;
+        border-radius: 45px;
+        border: 0px;
+        cursor: pointer; 
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -o-appearance: none;
+        appearance: none;
+    }   
+
+   
+
+.container {
+    position: center;
+    width: 100%;
+    float: left;
+    padding: 15px;
+
+    
+}    
+ ul.todo {
+     width: 100%;
+     float: left;
+
+ }
+ 
+ul.todo li{
+    width:70%;
+    float: left;
+    font-size: 14px;
+    font-weight: 500;
+    color: #444;
+    line-height: 22px;
+
+    height: 50px;
+    background:rgba(205, 214, 219, 0.3);
+    border-radius: 5px;
+    margin:0 0 10px 0; /*добавляет ревах между полями*/
+    position: relative;
+    padding: 14px 100px 14px 14px;
+
+}
+
+ul.todo li:last-of-type{
+    margin:0;
+}
+
+ul.todo li.buttons {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+ul.todo li .buttons button{
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: none;
+    border: 0px;
+    position: relative;
+    outline:none;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+   
+}
+
+.remove {
+    background-image: url(happy.jpg);
+    background-size:  contain;
+    background-repeat: round;
+    width: 50px;
+    height: 50px;
+    border-radius: 45px;
+    border: 0px;
+    cursor: pointer; 
+    position: absolute;
+}
+.complete{
+    background-image:  url(racoon2.jpg);
+    background-size:  contain;
+    background-repeat: round;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 45px;
+    border: 0px;
+    cursor: pointer; 
+}
+
