@@ -1,0 +1,104 @@
+#parent{
+    display: block;
+    background-color: black;
+    padding: 100px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid; 
+    border-bottom-color: black;
+    border-width: 5px;
+    position: relative;
+    width: 320px;
+	height: 5px;
+  }
+
+
+#child1 {
+    background-color: #66320E;
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+ #child2{
+    background-color: #66320E;
+    top: 0px;
+    right: 0px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+ }
+
+ #child3{
+    background-color: #66320E;
+    top: 0px;
+    right: 105px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+ }
+
+ #child4{
+    background-color: #66320E;
+    top: 0px;
+    right: 210px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+ }
+
+ #child5{
+    background-color: #66320E;
+    top: 0px;
+    left: 105px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+ }
+
+ #child6{
+    background-color: #66320E;
+    bottom: 0px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+ }
+
+ #child7{
+    background-color: #66320E;
+    bottom: 0px;
+    right: 105px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+ }
+
+ #child8{
+    background-color: #66320E;
+    bottom: 0px;
+    left: 210px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+ }
+
+ #child9{
+    background-color: #66320E;
+    bottom: 0px;
+    left: 105px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+ }
+
+ #child10{
+     background-color: darkred;
+     bottom: 101px;
+     width: 520px;
+     height: 3px;
+     left: 0;
+     position: absolute;
+ }
